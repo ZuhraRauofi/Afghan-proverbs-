@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afghan proverbs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Afghan proverbs</h1>
+        <p class="subtitle">Reflecting Afghan cultures</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#wall">Interactive wall</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Home section-->
+        <section id="home" class="section">
+            <div class="intro">
+                <h2>Welcome</h2>
+                <p>
+                    Proverbs have many uses in language,and all languages have proverbs that are consistent with their culture and tradition.
+                </p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search proverbs ...." disabled>
+                </div>
+            </div>
+            <div class="featured-proverbs grid">
+                <div class="proverb-card">
+                    <div class="proverb-script">سکوت بهتر از حرف بیهوده است</div>
+                        <div class="proverb-translation">ٍSilence is better than idle talk.</div>
+                </div>
+            </div>
+        </section>
+        <!--Gallery section-->
+        <section  id="gallery" class="section">
+            <h2>Proverb Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-script">عاقل را اشاره کافیست</div>
+                    <div class="gallery-translation">A hint is enough for the wise.</div>
+                    <div class="gallery-meaning">if we explain one aspect of the issue to a wise person,they will understand.</div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-script">از ماست که بر ماست</div>
+                    <div class="gallery-translation">It is from us that it is upon us.</div>
+                    <div class="gallery-meaning">Everyone is responsible for their own action.</div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-script">بار کج به منزل نمیرسد</div>
+                    <div class="gallery-translation">A crooked load does not reach the house.</div>
+                    <div class="gallery-meaning">Anything done carelessly and thoughtlessly will not yield any good results.</div>
+                </div>
+            </div>
+            <a href="#detail" class="detail-link">See proverb Detail</a>
+        </section>
+        <!--proverb detail section-->
+        <section id="detail" class="section">
+            <h2>Proveb Detail</h2>
+            <div class="detail-card">
+                <div class="detail-script">با نادان خاموشی کن</div>
+                <div class="detail-translation">Shut up with the ignorant.</div>
+                <div class="detail-explanation">
+                    This proverb that is ,if you dont respond to the objections and nonsense of an ignorant person,then you are a wise person.
+                </div>
+                <a href="#gallery" class="back-link">Back to gallery</a>
+            </div>
+        </section>
+        <!--Interactive wall section-->
+        <section id="wall" class="section">
+            <h2>Interactive Wall</h2>
+            <form class="proverb-form">
+                <label for="user-proverb">Your Proverb:</label>
+                <input type="text" id="user-proverb" name="user-proverb" required placeholder="Enter Proverb">
+                <label for="user-name">Your Name:</label>
+                <input type="text" id="user-name" name="user-name" required placeholder="Enter Your Name:">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>2025 Afghan Proverbs.All rights reserved.Designed by:Zuhra Rauofi</p>
+    </footer>
+</body>
+</html>
